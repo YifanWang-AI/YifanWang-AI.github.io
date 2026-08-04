@@ -11,8 +11,8 @@ export const siteConfig: SiteConfig = {
 	// 站点副标题
 	subtitle: "Demo site",
 
-	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	// 站点 URL（部署到 GitHub Pages 用户主域名）
+	site_url: "https://YifanWang-AI.github.io",
 
 	// 站点描述
 	description:
