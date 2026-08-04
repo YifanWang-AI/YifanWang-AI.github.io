@@ -6,8 +6,6 @@
 
 这里是我的个人博客，记录学习过程中的笔记、技术探索与生活点滴。会在这里分享课程笔记、项目实践，以及一些随手记录。
 
-> 本站基于 [Firefly](https://github.com/CuteLeaf/Firefly) 主题构建（Firefly 基于 [Fuwari](https://github.com/saicaca/fuwari)）。
-
 ---
 
 *感谢你的来访！*
