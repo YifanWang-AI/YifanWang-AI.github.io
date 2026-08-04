@@ -9,10 +9,10 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.avif",
 
 	// 名字
-	name: "Firefly",
+	name: "Yifan Wang",
 
 	// 个人签名
-	bio: "Hello, I'm Firefly.",
+	bio: "电子科技大学（深圳）高等研究院 · 计算机技术 · 研一",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
@@ -24,19 +24,19 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "qq",
 			icon: "fa7-brands:qq",
-			url: "https://qm.qq.com/q/ZGsFa8qX2G",
+			url: "tencent://message/?uin=1584704963&Site=qq&Menu=yes",
 			showName: false,
 		},
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/CuteLeaf",
+			url: "https://github.com/YifanWang-AI",
 			showName: false,
 		},
 		{
 			name: "Email",
 			icon: "fa7-solid:envelope",
-			url: "mailto:xiaye@msn.com",
+			url: "mailto:1584704963@qq.com",
 			showName: false,
 		},
 		{

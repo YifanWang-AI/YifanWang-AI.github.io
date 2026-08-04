@@ -6,10 +6,10 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Firefly",
+	title: "Yifan Wang",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "计算机技术 · 学习笔记",
 
 	// 站点 URL（部署到 GitHub Pages 用户主域名）
 	site_url: "https://YifanWang-AI.github.io",
