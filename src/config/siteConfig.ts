@@ -6,7 +6,7 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Yifan Wang",
+	title: "王一帆",
 
 	// 站点副标题
 	subtitle: "计算机技术 · 学习笔记",
@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
 
 	// 站点描述
 	description:
-		"Yifan Wang 的个人博客，记录计算机技术学习笔记、项目实践与生活点滴。",
+		"王一帆 的个人博客，记录计算机技术学习笔记、项目实践与生活点滴。",
 
 	// 站点关键词
 	keywords: [

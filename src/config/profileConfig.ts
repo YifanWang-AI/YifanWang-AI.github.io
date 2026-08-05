@@ -9,7 +9,7 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.avif",
 
 	// 名字
-	name: "Yifan Wang",
+	name: "王一帆",
 
 	// 个人签名
 	bio: "电子科技大学（深圳）高等研究院 · 计算机技术 · 研一",

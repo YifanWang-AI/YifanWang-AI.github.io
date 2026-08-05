@@ -73,12 +73,12 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Yifan Wang",
+			title: "王一帆",
 			// 主页横幅主标题字体大小
 			titleSize: "4.5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"你好，我是 Yifan Wang",
+				"你好，我是 王一帆",
 				"电子科技大学（深圳）高等研究院",
 				"计算机技术 · 研一在读",
 				"记录学习、技术与我所热爱的一切",
