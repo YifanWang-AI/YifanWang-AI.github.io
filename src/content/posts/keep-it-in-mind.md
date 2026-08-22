@@ -18,7 +18,7 @@ lang: ''
 
 ## 摘要
 
-![UCS-Bench 示例与 DirectMe 性能概览](/assets/images/papers/keep-it-in-mind-framework.png)
+![UCS-Bench 四类持续空间认知任务与双时间戳问答示例（Figure 2）](/assets/images/papers/keep-it-in-mind-framework.png)
 
 人类在穿行走廊、转进房间、走出建筑物时，能持续追踪自己当前的位置以及已离开的环境相对于身体的方位——这种能力被称为**以用户为中心的持续空间智能**（User-Centric Continual Spatial Intelligence）。
 
