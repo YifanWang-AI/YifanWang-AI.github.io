@@ -4,6 +4,8 @@
 
 ## 📚 论文 / Publications
 
+- **EviCausal: Evidence-enhanced Multi-Agent Causal Structure Learning for Domain-Generalizable Strabismus Diagnosis**
+  *Under review*
 - **Keep It in Mind: User-Centric Continual Spatial Intelligence Reasoning in Egocentric Video Streams**
   *ICML 2026（第 43 届国际机器学习大会，首尔）*
 - **DECIS: Dual-Evidence Corrective Verification for Interpretable Strabismus Diagnostic Decision-Making**
