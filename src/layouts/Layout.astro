@@ -53,6 +53,7 @@ const isHomePageCheck = isHomePage(Astro.url.pathname);
 // defines global css variables
 // why doing this in Layout instead of GlobalStyles: https://github.com/withastro/astro/issues/6728#issuecomment-1502203757
 const configHue = siteConfig.themeColor.hue;
+const themeVersion = "blue-tech-v1";
 
 // 获取导航栏透明模式配置
 const navbarTransparentMode =
@@ -257,6 +258,7 @@ const siteLang = lang.replace("_", "-");
         BANNER_HEIGHT_EXTEND,
         PAGE_WIDTH,
         configHue,
+        themeVersion,
         defaultMode: siteConfig.themeColor.defaultMode ?? "light",
         defaultWallpaperMode: backgroundWallpaper.mode,
         isWallpaperSwitchable:
@@ -271,6 +273,14 @@ const siteLang = lang.replace("_", "-");
       const LIGHT_MODE = "light";
       const DARK_MODE = "dark";
       const SYSTEM_MODE = "system";
+
+      // 新主题发布时仅重置一次旧缓存；用户之后仍可自由调整主题。
+      const storedThemeVersion = localStorage.getItem("site-theme-version");
+      if (storedThemeVersion !== themeVersion) {
+        localStorage.setItem("theme", defaultMode);
+        localStorage.setItem("hue", String(configHue));
+        localStorage.setItem("site-theme-version", themeVersion);
+      }
 
       // 获取存储的主题，如果没有则使用默认值
       const theme = localStorage.getItem("theme") || defaultMode;
